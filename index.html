@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla JS Carousel</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left is-hidden">
+        <img src="./img/icons8-back-80.png" alt="" />
+      </button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <img
+              class="carousel__image"
+              src="./img/hendrik-morkel-bUWfPTTtmnM-unsplash.jpg"
+              alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="./img/lucas-van-oort-ppEWJpVnEBY-unsplash.jpg"
+              alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="./img/rowan-heuvel-fdUELL-7-vc-unsplash.jpg"
+              alt="" />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--right">
+        <img src="./img/icons8-forward-80.png" alt="" />
+      </button>
+
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+      </div>
+    </div>
+  </body>
+</html>
